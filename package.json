@@ -1,11 +1,13 @@
 {
-  "name": "dogecoin-blockchain-explorer",
+  "homepage": "https://dingochain.info",
+  "name": "dingocoin-blockchain-explorer",
   "version": "1.0.0",
   "private": false,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
     "bitcoin": "3.0.1",
